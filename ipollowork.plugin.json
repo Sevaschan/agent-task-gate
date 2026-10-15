@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 2,
+  "id": "agent-task-gate",
+  "name": "Agent Task Gate",
+  "description": "Audit synthetic agent-training tasks for environment feasibility, verifier quality, evidence gaps, and batch coverage.",
+  "source": {
+    "format": "ipollowork-extension-manifest",
+    "origin": "local",
+    "trusted": false
+  },
+  "package": {
+    "version": "1.0.0",
+    "publisher": {
+      "id": "sevaschan",
+      "name": "Sevaschan"
+    },
+    "updateId": "sevaschan/agent-task-gate",
+    "compatibility": {
+      "ipollowork": ">=0.50.12"
+    }
+  },
+  "resources": [
+    {
+      "type": "skill",
+      "id": "agent-task-gate",
+      "label": "Agent Task Gate",
+      "path": "skills/agent-task-gate",
+      "required": true
+    }
+  ]
+}
